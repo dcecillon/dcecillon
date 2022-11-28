@@ -1,0 +1,131 @@
+
+body {
+margin: 0;
+background-image:url(img/Simple\ Shiny.svg);
+color: #FFFFFF;
+}
+
+h1 {
+text-align: center;
+color: #FFFFFF;
+text-transform: uppercase;
+text-decoration :solid;
+}
+
+h3 {
+text-align: center;
+color : #FFFFFF;
+text-transform: uppercase;
+text-decoration: dotted;
+}
+
+h2 {
+padding: 40px;
+text-align: center;
+}
+
+h4 {
+text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+text-align: center;
+border: 5;
+font-size :large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+    background-color: red;
+    border: 1px solid #FFFFFF;
+  }
+  
+  li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color : #FFFFFF;
+    color: red;
+  }
+
+  .buttonStage1 {
+    box-shadow: 0px 10px 14px -7px #000000;
+    background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color:#ffffff;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+  }
+  .buttonStage1:hover {
+    background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color:#ffffff;
+  }
+  .buttonStage1:active {
+    position:relative;
+    top:1px;
+  }
+
+.Stage1 {
+  position: absolute;
+  margin: 10%;
+  top: 15%;
+  height: 50%;
+  width: 40%;
+}
+
+.Stage2 {
+  position: absolute;
+  margin: 10%;
+  top: 15%;
+  height: 50%;
+  width: 119%;
+}
+
+.buttonStage2 {
+  box-shadow: 0px 10px 14px -7px #000000;
+  background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color:#ffffff;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.buttonStage2:hover {
+  background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color:#ffffff;
+}
+.buttonStage2:active {
+  position:relative;
+  top:1px;
+}
+  
+          
